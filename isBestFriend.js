@@ -9,9 +9,3 @@ function isBestFriend(obj1, obj2) {
     // if radian value is not a number function return an error message.
     return "Error! This function only allows two object as inputs";
 }
-
-let abul = { name: 'abul', friend: 'babul' };
-let kabul = { name: 'kabul', friend: 'abul' };
-let alex = { name: 'alex', friend: 'adnan' };
-let adnan = { name: 'adnan', friend: 'alex' };
-console.log(isBestFriend(abul, kabul));
