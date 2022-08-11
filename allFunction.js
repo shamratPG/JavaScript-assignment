@@ -1,12 +1,11 @@
-// function functionName(para) {
+// function functionName(paraMeter) {
 //     // if radian value is a number function return the value in degree.
-//     if (typeof (para) === "whaterver") {
+//     if (typeof (paraMeter) === "whaterver") {
 
 //     }
 //     // if radian value is not a number function return an error message.
 //     else {
-//         const message = "Error! This function only allows a number as a Input"
-//         return message;
+//         return "Error! This function only allows number as an input"
 //     }
 // }
 
@@ -23,6 +22,6 @@ function radianToDegree(radian) {
     }
     // if radian value is not a number function return an error message.
     else {
-        return "Error! This function only allows a number as a Input";
+        return "Error! This function only allows number as an input";
     }
 }
