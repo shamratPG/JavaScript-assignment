@@ -6,8 +6,6 @@ function radianToDegree(radian) {
         return degree.toFixed(2);
     }
     // if radian value is not a number function return an error message.
-    else {
-        return "Error! This function only allows number as an input";
-    }
+    return "Error! This function only allows number as an input";
 }
 
