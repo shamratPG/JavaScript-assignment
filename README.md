@@ -1,4 +1,4 @@
-# Basics JavaScript Fuctions
+# JavaScript Problem Solving
 Programming Hero assignment no. 4. This is the assesment of how much I have learned about javaScript so far. This repository contains basic javaScript functions and simple problem solving.
 
 ## Table of contents
