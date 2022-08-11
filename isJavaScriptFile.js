@@ -1,12 +1,8 @@
-function isJavaScriptFile(str) {
-    // if str is a string, function return the result.
-    if (typeof (str) === "string") {
-        // If the string ends with .js, this function will return true otherwise it will retrun false. 
-        const result = str.endsWith(".js");
-        return result;
+function isJavaScriptFile(fileName) {
+    if (typeof (fileName) === "string") {
+        // If the string ends with .js, function will return true otherwise retrun false. 
+        const isJavaScript = fileName.endsWith(".js");
+        return isJavaScript;
     }
-    // if str is not a string, function return an error message.
     return "Error! This function only allows string as an input";
 }
-
-
