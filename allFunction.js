@@ -4,7 +4,7 @@
 
 //     }
 //     // if radian value is not a number function return an error message.
-//        return "Error! This function only allows number as an input"
+//     return "Error! This function only allows number as an input";
 
 // }
 
